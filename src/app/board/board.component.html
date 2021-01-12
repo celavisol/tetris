@@ -3,9 +3,9 @@
     <div class="right-column">
         <div>
             <h1>TETRIS</h1>
-            <p>Score: {{ points }}</p>
-            <p>Lines: {{ lines }}</p>
-            <p>Level: {{ level }}</p>
+            <p class="p1"> Score: {{ points }}</p>
+            <p class="p2">Lines: {{ lines }}</p>
+            <p class="p3">Level: {{ level }}</p>
             <canvas #next class="next"></canvas>
         </div>
         <button (click)="play()" class="play-button">Play</button>
